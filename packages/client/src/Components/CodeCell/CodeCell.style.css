@@ -1,0 +1,40 @@
+.codeCellWrapper{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.wrapper{
+    position: relative;
+    margin-bottom: 1vw;
+}
+
+.progress-bar-wrapper {
+    height: 50px;
+    width: 50%;
+    flex-grow: 1;
+    background-color: white;
+    padding: 0 10%;
+    position: absolute;
+    top: 50%;
+    animation: fadeIn 0.5s;
+  }
+
+  .progress-bar{
+    width: 100%;
+  }
+  
+  @keyframes fadeIn {
+    
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+  }

@@ -1,0 +1,28 @@
+.add-cell-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+    position: relative;
+    margin: 3vh 0vh 2vh 0vh;
+}
+
+.button{
+    background-color: rgb(240, 184, 81);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 12px;
+    margin: 0 1px;
+    color: rgb(112, 109, 109);
+    font-size: 20px;
+    z-index: 2
+}
+
+.line-horizontal{
+    height: 2px;
+    width: 100%;
+    background-color: rgba(216, 216, 216, 0.608);
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+}
