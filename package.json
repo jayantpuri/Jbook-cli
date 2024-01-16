@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "lerna run start --parallel"
+  },
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "name": "jbook"
+}
